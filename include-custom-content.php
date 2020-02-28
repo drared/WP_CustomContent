@@ -9,6 +9,7 @@
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       include-custom-content
+ * NOTE: 	      Still needs further testing
  */
 
 // Check if a custom content file exists... 
