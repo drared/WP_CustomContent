@@ -52,10 +52,10 @@ function CheckForCustomContent()
 			//$RelFilePath = get_stylesheet_directory_uri()."/Custom/custom-css/custom-css-".$CurID.".css";
 			$RelFilePath = get_stylesheet_directory_uri()."/Custom/custom-css/custom-css-".$CurID.".css";
 			// Custom CSS file exists so it is included 
-			?>
+?>
 			<!-- Custom CSS via plugin -->
 			<link rel="stylesheet" type="text/css" href="<?php echo $RelFilePath; ?>" />
-			<?php
+<?php
 		}
 
 
@@ -69,10 +69,10 @@ function CheckForCustomContent()
 			$RelFilePath = get_stylesheet_directory_uri()."/Custom/custom-css/".$slug.".css";
 
 			// Custom CSS file exists so it is included 
-			?>
+?>
 			<!-- Custom CSS via plugin -->
 			<link rel="stylesheet" type="text/css" href="<?php echo $RelFilePath; ?>" />
-			<?php
+<?php
 		}
 
 		// Check for custom content. Link if file exists.
